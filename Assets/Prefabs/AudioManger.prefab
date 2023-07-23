@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4806671175220443242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2203019688107276284}
+  - component: {fileID: 1247237407554741627}
+  m_Layer: 0
+  m_Name: AudioManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2203019688107276284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806671175220443242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1247237407554741627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4806671175220443242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5aab959bd9cc0a4cae4e4802851b620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipWalk: {fileID: 8300000, guid: e7bc17f674bdd6744a24fe0fe60bdeb9, type: 3}
+  clipWalkIzquierdo: {fileID: 8300000, guid: 2bb09a2052d5f844588d87396eef69ef, type: 3}
+  clipAmbiente: {fileID: 8300000, guid: 99f6274b18ba4a4439824e857b6cd8da, type: 3}
+  clipCoin: {fileID: 8300000, guid: a3e5f35b68b355e4abccdadd591fb07c, type: 3}
+  clipTemporizador: {fileID: 8300000, guid: dedf7c7264ebbea4ea8f8ead75becce8, type: 3}
+  clipSaltar: {fileID: 8300000, guid: 252d98e119957014aaf003cb95fb9c69, type: 3}
+  clipDoorOpen: {fileID: 8300000, guid: 53e693c404760a44ea2ad16af36fd37b, type: 3}
+  clipColissionEnemys: {fileID: 8300000, guid: 9861ce1d1298abc45a6339d80df8c92f, type: 3}
+  clipPuertaNivel: {fileID: 8300000, guid: 085e0459637fcc743b0b92ac1ab34ac5, type: 3}
+  clipWinLevel: {fileID: 8300000, guid: f3e853cad62123f449ffcc2ffd539576, type: 3}
+  clipPortal: {fileID: 8300000, guid: 51e6b819aa0aaaf46a851afeab6be8dd, type: 3}
+  clipMenu: {fileID: 8300000, guid: ea35cf81b5f80234d899ab31f01f860b, type: 3}
+  groupWalk: {fileID: 2374937292602604311, guid: c22aadb966d47684eb541df8d6a06857,
+    type: 2}
+  groupWalkIzquierdo: {fileID: 2374937292602604311, guid: c22aadb966d47684eb541df8d6a06857,
+    type: 2}
+  groupAmbiente: {fileID: -4560112913892881560, guid: 33f93e3d1070dd143be3b765c2e06a6a,
+    type: 2}
+  groupCoin: {fileID: -2823719048056175169, guid: c22aadb966d47684eb541df8d6a06857,
+    type: 2}
+  groupTemporizador: {fileID: -4560112913892881560, guid: 33f93e3d1070dd143be3b765c2e06a6a,
+    type: 2}
+  groupSaltar: {fileID: -496699397409056570, guid: c22aadb966d47684eb541df8d6a06857,
+    type: 2}
+  groupDoorOpen: {fileID: -4560112913892881560, guid: 33f93e3d1070dd143be3b765c2e06a6a,
+    type: 2}
+  groupCollisionEnemys: {fileID: -496699397409056570, guid: c22aadb966d47684eb541df8d6a06857,
+    type: 2}
+  groupPuertaNivel: {fileID: -4560112913892881560, guid: 33f93e3d1070dd143be3b765c2e06a6a,
+    type: 2}
+  groupWinLevel: {fileID: -4560112913892881560, guid: 33f93e3d1070dd143be3b765c2e06a6a,
+    type: 2}
+  groupPortal: {fileID: -496699397409056570, guid: c22aadb966d47684eb541df8d6a06857,
+    type: 2}
+  groupMenu: {fileID: -4560112913892881560, guid: 33f93e3d1070dd143be3b765c2e06a6a,
+    type: 2}
